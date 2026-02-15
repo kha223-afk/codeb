@@ -1,0 +1,17 @@
+{
+  "name": "codeb",
+  "version": "1.0.0",
+  "description": "a backend from chai or code and it will best web",
+  "keywords": [
+    "backend",
+    "codeb",
+    "chai"
+  ],
+  "license": "ISC",
+  "author": "MD Khalikul Islam",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
