@@ -1,18 +1,8 @@
-const asyncHolder=(requestHolder)=>{(req,res,next)=>{
+const asyncHolder=(requestHolder)=>{
+    return (req,res,next)=>{
  Promise.resolve(requestHolder(req,res,next)).catch((err)=>next(err))
 
-}}
-
-
-
-
-
-
-
-
-
-
-
+}};
 
 // const asynkHolder= (fun)=>async()=>{
 //     try {

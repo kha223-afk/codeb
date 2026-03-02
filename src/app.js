@@ -12,6 +12,12 @@ app.use(express.json({limit:"16kb"}))
 app.use(express.urlencoded({extended:true}))
 app.use(express.static("public"))
 app.use(cookieParser())
+//router import
+import userouter from './routs/user.router.js';
+
+
+//router decleation
+app.use("/api/v1/users",userouter)
 
 
 
@@ -19,13 +25,6 @@ app.use(cookieParser())
 
 
 
+export { app };
 
-
-
-
-
-
-
-
-export { app  };
 
