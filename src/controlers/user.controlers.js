@@ -2,8 +2,8 @@
 import { asyncHolder } from "../untill/asynkholder.js";
 const registeruser=asyncHolder(async(req,res)=>{
      res.status(200).json({
-        message:"ok",
-        // success:true
+        message:"your server is working",
+    
     })
     
 })

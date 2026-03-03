@@ -15,16 +15,8 @@ app.use(cookieParser())
 //router import
 import userouter from './routs/user.router.js';
 
-
 //router decleation
-app.use("/api/v1/users",userouter)
-
-
-
-
-
-
+app.use("/api/v1/users",userouter);
 
 export { app };
-
 
